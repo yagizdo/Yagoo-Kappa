@@ -5,12 +5,14 @@
   "main": "app.js",
   "dependencies": {
     "discord.js": "^11.5.1",
+    "dotenv": "^8.1.0",
     "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
     "moment": "^2.24.0",
     "node.js": "^0.0.0",
     "npm": "^6.10.1",
-    "opusscript": "0.0.6",
-    "ytdl-core": "^0.29.3"
+    "opusscript": "^0.0.7",
+    "ytdl-core": "^0.29.5"
   },
   "devDependencies": {},
   "scripts": {
