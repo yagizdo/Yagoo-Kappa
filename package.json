@@ -1,0 +1,21 @@
+{
+  "name": "dc-bot-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "ffmpeg": "0.0.4",
+    "moment": "^2.24.0",
+    "node.js": "^0.0.0",
+    "npm": "^6.10.1",
+    "opusscript": "0.0.6",
+    "ytdl-core": "^0.29.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yagoo",
+  "license": "ISC"
+}
