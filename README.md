@@ -27,6 +27,14 @@ $ git clone https://github.com/yagizdo/Yagoo-Kappa.git
 ```shell
 $ cd Yago-Kappa
 $ npm install
+```
+
+Then create .env file and type in your |
+TOKEN = 123456789
+
+And start app
+
+```shell
 $ node app.js
 ```
 If you have a nodemon package
