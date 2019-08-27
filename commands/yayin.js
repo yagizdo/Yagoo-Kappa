@@ -9,7 +9,7 @@ module.exports = {
             .addField("Oyun Adı", "Oyun", true)
             .addField("Kanal Linki", "Link", true)
             .setColor("#6441a5")
-            .setFooter("Footer messssssaaaageeeee")
+            .setFooter("Footer message")
             .setThumbnail(message.author.avatarURL)
         message.channel.sendEmbed(embed);
     },
