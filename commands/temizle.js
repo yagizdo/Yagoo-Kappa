@@ -7,9 +7,10 @@ module.exports = {
         if (isNaN(args[0])) return message.channel.send("Lütfen silinecek mesaj sayısını giriniz.");
         else {
             message.channel.bulkDelete(args[0])
-                .then(messages = message.channel.sendMessage("**Başarı ile silindi. Silinen mesaj sayısı : \'${messages.size}/${args[0]}\' messages**").then(msg => msg.delete({ timeout: 10000 })))
+                .then(message = message.channel.sendMessage(`**Başarı ile silindi. Silinen mesaj sayısı : \'${message.size}/${args[0]}\' messages**`)
+                    .then(msg => msg.delete({ timeout: 10000 })))
 
-            .catch(error => message.channel.sendMessage("**ERROR** ${error.message}"));
+            .catch(error => message.channel.sendMessage(`**ERROR** ${error.message}`));
         }
     },
 };
